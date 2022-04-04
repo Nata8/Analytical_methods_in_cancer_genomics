@@ -6,10 +6,9 @@ Workflow for alignment of FASTQ files to the SARS-Cov-2 reference genome, callin
 **Install all prerequisities** <br />
 
 `sudo apt-get update` <br />
-<br />
-**SAMTOOLS** is a suite of programs for interacting with high-throughput sequencing data. <br />
++ **SAMTOOLS** is a suite of programs for interacting with high-throughput sequencing data. <br />
 `sudo apt install samtools` <br />
-**BWA** is a software package for mapping low-divergent sequences against a large reference genome. <br />
++ **BWA** is a software package for mapping low-divergent sequences against a large reference genome. <br />
 `sudo apt install bwa` <br />
 
 **Make a new directory and change the current working directory** <br />
@@ -28,7 +27,7 @@ Fasta file with reference covid genome can be found [here.](https://www.ncbi.nlm
  
  **Index the reference genome**
  
- BWA first needs to construct FM-index for the refence genome. <br />
+ BWA first needs to construct FM-index for the reference genome. <br />
 `bwa index reference_covid.fasta` <br />
 
 **Make an alignment**
