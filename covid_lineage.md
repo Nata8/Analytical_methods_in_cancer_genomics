@@ -56,8 +56,12 @@ that have been sequenced. <br />
 "-v" -
 "-0" - assume genotypes at missing sites are 0/0
 "-b" - 
-
 ```
 
+**Variant annotation**
+
+Variant annotation is used to help researchers filter and prioritise functionally important variants for
+further study. There are several popular programs available for annotating variants. <br />
+To my mind, the most user friendly is Variant Effect Predictor with [website.](https://covid-19.ensembl.org/Tools/VEP) <br />
 ``
 ``
