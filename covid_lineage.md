@@ -18,7 +18,10 @@ Workflow for alignment of FASTQ files to the SARS-Cov-2 reference genome, callin
 
 `wget https://gear.embl.de/data/.slides/Plate135H10.R2.fastq.gz`<br />
 `wget https://gear.embl.de/data/.slides/Plate135H10.R2.fastq.gz` <br />
+
+Fasta file with reference covid genome can be found [here](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2?report=fasta)
 `nano reference_covid.fasta` <br />
+
  
  **Index the reference genome**
  
