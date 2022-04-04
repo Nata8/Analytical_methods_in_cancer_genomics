@@ -10,6 +10,8 @@ Workflow for alignment of FASTQ files to the SARS-Cov-2 reference genome, callin
 `sudo apt install samtools` <br />
 + **BWA** is a software package for mapping low-divergent sequences against a large reference genome. <br />
 `sudo apt install bwa` <br />
++ **BCFTOOLS** is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF. 
+`sudo apt install bcftools` <br />
 
 **Make a new directory and change the current working directory** <br />
 
