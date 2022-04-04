@@ -1,4 +1,9 @@
-++
+# SARS-Cov-2 Lineage Determination
+
+Workflow for alignment of FASTQ files to the SARS-Cov-2 reference genome, calling and annonationing variants. Furthermore, determination the most likely lineage. <br />
+
+
+
 mkdir analytical_methods_in_cancer
 cd analytical_methods_in_cancer
 
