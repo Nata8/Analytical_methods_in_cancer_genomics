@@ -20,4 +20,15 @@ Workflow for alignment of FASTQ files to the SARS-Cov-2 reference genome, callin
 `wget https://gear.embl.de/data/.slides/Plate135H10.R2.fastq.gz` <br />
 `nano reference_covid.fasta` <br />
  
+ **Index the reference genome**
+ 
+ BWA first needs to construct FM-index for the refence genome. <br />
+`bwa index reference_covid.fasta` <br />
+
+**Make an alignment**
+
+``
+``
+``
+``
 ``
