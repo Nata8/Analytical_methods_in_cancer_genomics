@@ -33,9 +33,10 @@ Fasta file with reference covid genome can be found [here.](https://www.ncbi.nlm
 **Make an alignment**
 
 First part of the pipeline: BWA-MEM alghorithm performs local alignment. <br />
-Second part of the pipeline: <br />
-`bwa mem reference_covid.fasta Plate135H10.R1.fastq.gz Plate135H10.R2.fastq.gz | samtools sort -o align.bam -`
-``
+Second part of the pipeline: Sort the alignments by leftmost coordinates and write the result to the file align.bam. <br />
+`bwa mem reference_covid.fasta Plate135H10.R1.fastq.gz Plate135H10.R2.fastq.gz | samtools sort -o align.bam -` <br />
+Index the BAM file for fast random access.
+`samtools index align.bam` <br />
 ``
 ``
 ``
