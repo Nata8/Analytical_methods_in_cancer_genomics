@@ -62,6 +62,6 @@ that have been sequenced. <br />
 
 Variant annotation is used to help researchers filter and prioritise functionally important variants for
 further study. There are several popular programs available for annotating variants. <br />
-To my mind, the most user friendly is Variant Effect Predictor with [website.](https://covid-19.ensembl.org/Tools/VEP) <br />
+To my mind, the most user friendly is Variant Effect Predictor (VEP) with [website.](https://covid-19.ensembl.org/Tools/VEP) <br />
 ``
 ``
