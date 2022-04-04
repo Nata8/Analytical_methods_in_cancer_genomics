@@ -65,6 +65,5 @@ further study. There are several popular programs available for annotating varia
 To my mind, the most user friendly is Variant Effect Predictor (VEP) with [website.](https://covid-19.ensembl.org/Tools/VEP) <br />
 First, we need to extract and copy all variants: <br />
 ` bcftools view calls.bcf | cut -f 1-5 | grep -v "^#"` <br />
-Then, the results can be visualized by website mentioned above. 
-Results was evaluted using [Covid lineage comparation](https://outbreak.info/compare-lineages)
+Then, the results can be visualized by website mentioned above and evaluated using [Covid lineage comparation](https://outbreak.info/compare-lineages)
 
