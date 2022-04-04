@@ -34,11 +34,14 @@ Fasta file with reference covid genome can be found [here.](https://www.ncbi.nlm
 
 **Make an alignment**
 
-First part of the pipeline: BWA-MEM algorithm performs local alignment. <br />
-Second part of the pipeline: Sort the alignments by leftmost coordinates and write the result to the file align.bam. <br />
 `bwa mem reference_covid.fasta Plate135H10.R1.fastq.gz Plate135H10.R2.fastq.gz | samtools sort -o align.bam -` <br />
 Index the BAM file for fast random access. <br />
 `samtools index align.bam` <br />
+```
+Explanatory notes: 
+BWA-MEM algorithm performs local alignment.
+Samtools sort sorts he alignments by leftmost coordinates and write the result to the file align.bam.
+```
 
 **Variant calling**
 
@@ -46,8 +49,7 @@ BCFtools can be used for variant calling - the process of identifying difference
 that have been sequenced. <br />
 `bcftools mpileup -f reference_covid.fasta align.bam | bcftools call --ploidy 1 -mv -Ob -o calls.bcf` <br />
 ```
-*Explanatory notes:* <br />
-*mpileup* - multi-way pileup producing genotype likelihoods  <br />
+mpileup - multi-way pileup producing genotype likelihoods 
 ```
 
 ``
