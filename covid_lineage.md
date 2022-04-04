@@ -4,8 +4,8 @@ Workflow for alignment of FASTQ files to the SARS-Cov-2 reference genome, callin
 
 **Make a new directory and change the current working directory** <br />
 
-mkdir analytical_methods_in_cancer <br />
-cd analytical_methods_in_cancer <br />
+`mkdir analytical_methods_in_cancer` <br />
+`cd analytical_methods_in_cancer` <br />
 
 
 wget https://gear.embl.de/data/.slides/Plate135H10.R2.fastq.gz
