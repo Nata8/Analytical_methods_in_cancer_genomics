@@ -45,8 +45,10 @@ Index the BAM file for fast random access. <br />
 BCFtools can be used for variant calling - the process of identifying differences between the reference genome and the samples
 that have been sequenced. <br />
 `bcftools mpileup -f reference_covid.fasta align.bam | bcftools call --ploidy 1 -mv -Ob -o calls.bcf` <br />
+```
 *Explanatory notes:* <br />
 *mpileup* - multi-way pileup producing genotype likelihoods  <br />
+```
 
 ``
 ``
