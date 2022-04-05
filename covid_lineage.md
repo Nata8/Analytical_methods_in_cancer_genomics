@@ -56,6 +56,7 @@ that have been sequenced. <br />
 "-v" - asks to output only variant sites
 "-0" - selects the output format
 "-b" - chooses output format - binary compressed BCF
+```
 
 **Variant annotation**
 
