@@ -48,15 +48,14 @@ BCFtools can be used for variant calling - the process of identifying difference
 that have been sequenced. <br />
 `bcftools mpileup -f reference_covid.fasta align.bam | bcftools call --ploidy 1 -mv -Ob -o calls.bcf` <br />
 ```
-"mpileup" - multi-way pileup producing genotype likelihoods 
-"call" - 
+"mpileup" - generates genotype likelihoods at each genomic position with coverage. 
+"call" - makes the actual calls
 > OPTIONS
 "--ploidy" - an optional column indicating ploidy
-"-m" - 
-"-v" -
-"-0" - assume genotypes at missing sites are 0/0
-"-b" - 
-```
+"-m" - tells the program to use the default calling method
+"-v" - asks to output only variant sites
+"-0" - selects the output format
+"-b" - chooses output format - binary compressed BCF
 
 **Variant annotation**
 
