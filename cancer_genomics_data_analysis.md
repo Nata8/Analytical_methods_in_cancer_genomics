@@ -1,7 +1,7 @@
 # Analysis of cancer genomics sample
 
 Exercise for analysis cancer genomics sample (a paired tumor-control sample set). This is a simulated Medulloblastoma sample with a matched control. 
-The main objective of this exercise is to align the data to the human reference genome (https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz), to sort and index the alignments and to generate a read-depth plot. More info. (https://tobiasrausch.com/courses/cg/)
+The main objective of this exercise is to align the data to [the human reference genome.](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz), to sort and index the alignments and to generate a read-depth plot. More info [here.](https://tobiasrausch.com/courses/cg/).
 
 **Index the reference genome**
  
