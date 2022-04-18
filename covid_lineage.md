@@ -67,5 +67,5 @@ First, we need to extract and copy all variants: <br />
 ` bcftools view calls.bcf | cut -f 1-5 | grep -v "^#"` <br />
 Then, the results can be visualized by website mentioned above and evaluated using [Covid lineage comparation](https://outbreak.info/compare-lineages).
 We can use filter to visualize only S protein variants, because these variants are better examined.
-The S protein variants are localized at cDNA positions - 200, 203-209, 284 and 424-433.
+The S protein variants are localized at cDNA positions - 200, 203-209, 284 and 424-433. Most likely it is an omikron variant. 
 
