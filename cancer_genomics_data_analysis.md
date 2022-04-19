@@ -39,10 +39,10 @@ Graphs can be plotted using Gnuplot tool. <br />
 `gnuplot> exit` <br />
 
 <br />
-<br />
 
 **X-axis represents chromosome position and Y-axis represents read dept.** <br />
-**Read depth plot from tumor sample**
+<br />
+**Read depth plot from tumor sample**<br />
 <br />
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png) <br />
 <br />
