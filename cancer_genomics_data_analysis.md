@@ -29,9 +29,9 @@ We can simply use Samtools to find out read counts.  <br />
 `samtools depth <<input bam>> > <<output txt file>>` <br />
 The result is a text file with three columns. First column indicates chromosome, second shows positions at the chromosome and third are the individual depths. <br />
 
-**Read depth plot**
+**Read depth plot** <br />
 Let's make the last step. We cannot forget that we have two samples - tumor and control, therefore we need two plots. <br />
-Graphs can be plotted using Gnuplot tool. 
+Graphs can be plotted using Gnuplot tool. <br />
 
 
 
