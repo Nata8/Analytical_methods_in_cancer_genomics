@@ -16,7 +16,5 @@ Index the BAM file for fast random access. <br />
 ```
 BWA-MEM algorithm performs local alignment.
 Samtools sort sorts the alignments by leftmost coordinates and write the result to the file align.bam.
-
-
-![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
 ```
+![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
