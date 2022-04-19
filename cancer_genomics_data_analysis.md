@@ -20,7 +20,7 @@ Samtools sort sorts the alignments by leftmost coordinates and write the result 
 
 **Focus on the region of interest**
 
-In order to save computing time, we are only focusing on chromosome X, concrete from 20Mbp to 40Mbp.
-`samtools view -b <<input bam>> chrX:20000000-40000000 > <<filename of output bam>>`
+In order to save computing time, we are only focusing on chromosome X, concrete from 20Mbp to 40Mbp.  <br />
+`samtools view -b <<input bam>> chrX:20000000-40000000 > <<filename of output bam>>`  <br />
 
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
