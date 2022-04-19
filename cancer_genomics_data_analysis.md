@@ -36,6 +36,7 @@ Graphs can be plotted using Gnuplot tool. <br />
 `gnuplot> set term png` <br />
 `gnutplot> set output 'graph.png'` <br />
 `gnuplot> plot '<<input txt>>' using 2:3 with lines` <br />
+`gnuplot> exit` <br />
 
 <br />
 <br />
