@@ -40,5 +40,6 @@ Graphs can be plotted using Gnuplot tool. <br />
 <br />
 <br />
 
-**X-axis represents chromosome position and Y-axis represents read dept**
+**X-axis represents chromosome position and Y-axis represents read dept.** <br />
+<br />
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
