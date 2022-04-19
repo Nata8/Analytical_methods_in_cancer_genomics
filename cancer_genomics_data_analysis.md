@@ -37,6 +37,8 @@ Graphs can be plotted using Gnuplot tool. <br />
 `gnutplot> set output 'graph.png'` <br />
 `gnuplot> plot '<<input txt>>' using 2:3 with lines` <br />
 
+<br />
+<br />
 
-
+**X-axis represents chromosome position and Y-axis represents read dept**
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
