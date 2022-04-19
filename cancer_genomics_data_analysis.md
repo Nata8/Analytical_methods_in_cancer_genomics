@@ -33,9 +33,9 @@ The result is a text file with three columns. First column indicates chromosome,
 <br />
 Let's make the last step. We cannot forget that we have two samples - tumor and control, therefore we need two plots. <br />
 Graphs can be plotted using Gnuplot tool. <br />
-`gnuplot> set term png`
-`gnutplot> set output 'graph.png'`
-`gnuplot> plot '<<input txt>>' using 2:3 with lines`
+`gnuplot> set term png` <br />
+`gnutplot> set output 'graph.png'` <br />
+`gnuplot> plot '<<input txt>>' using 2:3 with lines` <br />
 
 
 
