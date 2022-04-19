@@ -23,4 +23,16 @@ Samtools sort sorts the alignments by leftmost coordinates and write the result 
 In order to save computing time, we are only focusing on chromosome X, concrete from 20Mbp to 40Mbp.  <br />
 `samtools view -b <<input bam>> chrX:20000000-40000000 > <<filename of output bam>>`  <br />
 
+**Finding read depth**
+
+We can simply use Samtools to find out read counts.  <br />
+`samtools depth <<input bam>> > <<output txt file>>` <br />
+The result is a text file with three columns. First column indicates chromosome, second shows positions at the chromosome and third are the individual depths. <br />
+
+**Read depth plot**
+Let's make the last step. We cannot forget that we have two samples - tumor and control, therefore we need two plots. <br />
+Graphs can be plotted using Gnuplot tool. 
+
+
+
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
