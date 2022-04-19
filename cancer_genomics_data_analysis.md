@@ -17,4 +17,10 @@ Index the BAM file for fast random access. <br />
 BWA-MEM algorithm performs local alignment.
 Samtools sort sorts the alignments by leftmost coordinates and write the result to the file align.bam.
 ```
+
+**Focus on the region of interest**
+
+In order to save computing time, we are only focusing on chromosome X, concrete from 20Mbp to 40Mbp.
+`samtools view -b <<input bam>> chrX:20000000-40000000 > <<filename of output bam>>`
+
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/tumor_graph.png)
