@@ -56,11 +56,11 @@ Graphs can be plotted using Gnuplot tool. <br />
 
 `seq 2000 4000 | awk '{print "chrX\t"$1*10000"\t"($1+1)*10000"\tID"NR;}' > regions.bed` <br />
 `samtools bedcov regions.bed opravnyalignment.bam | awk '{print $1"\t"$2"\t"$3"\t"$5/10000;}' > tu.bed` <br />
-
-`> library(ggplot2)
-> data = read.table("tu.bed")
-> colnames(data) = c("chr", "start", "end", "cov")
-> myplot <- ggplot(data=data, aes(x=start, y=cov)) + geom_point()
-> pdf("ggplot.pdf")
-> print(myplot)
-> dev.off() `
+<br />
+`> library(ggplot2)` <br />
+`> data = read.table("tu.bed")` <br />
+`> colnames(data) = c("chr", "start", "end", "cov")` <br />
+`> myplot <- ggplot(data=data, aes(x=start, y=cov)) + geom_point()` <br />
+`> pdf("ggplot.pdf")` <br />
+`> print(myplot)` <br />
+`> dev.off() ` <br />
