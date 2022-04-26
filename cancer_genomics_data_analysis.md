@@ -54,5 +54,6 @@ Graphs can be plotted using Gnuplot tool. <br />
 <br />
 **Read depth plot using bed tools/** <br />
 
-`seq 2000 4000 | awk '{print "chrX\t"$1*10000"\t"($1+1)*10000"\tID"NR;}' > regions.bed`
+`seq 2000 4000 | awk '{print "chrX\t"$1*10000"\t"($1+1)*10000"\tID"NR;}' > regions.bed` <br />
+`samtools bedcov regions.bed opravnyalignment.bam | awk '{print $1"\t"$2"\t"$3"\t"$5/10000;}' > tu.bed` <br />
 
