@@ -52,7 +52,7 @@ Graphs can be plotted using Gnuplot tool. <br />
 ![Graph](https://github.com/Nata8/Analytical_methods_in_cancer_genomics/blob/main/control_graph.png) <br />
 <br />
 <br />
-**Read depth plot using bed tools/** <br />
+**Read depth plot using windows of 10 000 bp** <br />.
 
 `seq 2000 4000 | awk '{print "chrX\t"$1*10000"\t"($1+1)*10000"\tID"NR;}' > regions.bed` <br />
 `samtools bedcov regions.bed opravnyalignment.bam | awk '{print $1"\t"$2"\t"$3"\t"$5/10000;}' > tu.bed` <br />
